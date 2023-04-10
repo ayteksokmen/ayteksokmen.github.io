@@ -6,6 +6,7 @@ categories: [ Programming, SwiftUI ]
 tags: [Declarative Ui, Swift UI, Declarative Syntax, User Interface, Modifiers]
 image: assets/images/declarative.webp
 description: "SwiftUI’s Declarative Syntax"
+projects: [ NearBeat ]
 featured: true
 hidden: false
 ---
