@@ -24,5 +24,3 @@ permalink: /projects
 
     </div>
 </section>
-
-{% endif %}
