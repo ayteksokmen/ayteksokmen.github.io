@@ -4,14 +4,11 @@ title:  "Exploring the Power of SwiftUI’s Declarative Syntax"
 author: Aytek
 categories: [ Programming, SwiftUI ]
 tags: [Declarative Ui, Swift UI, Declarative Syntax, User Interface, Modifiers]
-image: assets/images/11.jpg
+image: assets/images/declarative.webp
 description: "SwiftUI’s Declarative Syntax"
 featured: true
 hidden: false
 ---
-
-![Declarative UI]({{ site.baseurl }}/assets/images/declarative.webp)
-###### DevFest 2019: Understanding Declarative UI by Pascal Welsch
 
 SwiftUI is a powerful framework for building user interfaces in iOS, macOS, watchOS, and tvOS apps. One of its most distinguishing features is its declarative syntax, which allows developers to describe the user interface of their app using a simple and expressive language.
 

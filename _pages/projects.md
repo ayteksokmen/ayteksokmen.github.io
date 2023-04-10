@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About Aytek
-permalink: /about
+title: Aytek's Projects
+permalink: /projects
 comments: false
 ---
 
