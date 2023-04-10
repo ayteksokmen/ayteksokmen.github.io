@@ -1,15 +1,15 @@
 ---
-title: "Categories"
+title: "Projects"
 layout: default
-permalink: "/categories.html"
+permalink: "/projects.html"
 ---
 
 <div class="row listrecent">
-{% for category in site.categories %}
+{% for project in site.projects %}
 <div class="section-title col-md-12 mt-4">
-<h2 id="{{ category[0] | replace: " ","-" }}">Category <span class="text-capitalize">{{ category[0] }}</span></h2>
+<h2 id="{{ project[0] | replace: " ","-" }}">Project <span class="text-capitalize">{{ project[0] }}</span></h2>
 </div>
-{% assign pages_list = category[1] %}
+{% assign pages_list = project[1] %}
 {% for post in pages_list %}
 {% if post.title != null %}
 {% if group == null or group == post.group %}
