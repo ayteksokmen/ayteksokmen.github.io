@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: categories
 title: Aytek's Projects
 permalink: /projects
 comments: false
