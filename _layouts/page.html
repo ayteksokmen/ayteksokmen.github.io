@@ -4,10 +4,12 @@ layout: default
 
 
 <section>
+    {% if page.url == "/" %}
     <div class="section-title">
         <h2><span>{{ page.title }}</span></h2>
     </div>
-
+    {% endif %}
+    
     <div class="article-post">
     {{content}}
     </div>

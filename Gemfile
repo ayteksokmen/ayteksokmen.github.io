@@ -15,6 +15,10 @@ group :jekyll_plugins do
     gem 'jekyll-paginate'
     gem 'jekyll-seo-tag'
     gem 'jekyll-archives'
+    gem 'github-pages' 
     gem 'kramdown'
     gem 'rouge'
+    gem 'rdiscount' , '~> 2.2.0'
 end
+
+gem "webrick", "~> 1.8"

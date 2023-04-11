@@ -10,19 +10,14 @@ post_class: post-template
 <div class="container">
     <div class="row">
 
-        <!-- Post Share -->
-        <div class="col-md-2 pl-0">
-            {% include share.html %}
-        </div>
-
         <!-- Post -->
         {% assign author = site.authors[page.author] %}
 
-        <div class="col-md-9 flex-first flex-md-unordered">
+        <div class="col-md-9">
             <div class="mainheading">
 
                 <!-- Author Box -->
-                {% if page.author %}
+                <!-- {% if page.author %}
                 <div class="row post-top-meta">
                     <div class="col-xs-12 col-md-3 col-lg-2 text-center text-md-left mb-4 mb-md-0">
                         {% if author.avatar %}
@@ -36,7 +31,7 @@ post_class: post-template
                         <span class="author-description">{{ author.description }}</span>
                     </div>
                 </div>
-                {% endif %}
+                {% endif %} -->
 
                 <!-- Post Title -->
                 <h1 class="posttitle">{{ page.title }}</h1>
@@ -135,6 +130,40 @@ post_class: post-template
         </div>
         <!-- End Post -->
 
+        <!-- Post Share -->
+        <!-- <div class="col-md-3">
+
+                <div class="sticky-top sticky-top-80 items">
+
+                {% include share.html %}
+
+                </br>
+
+                <h5>More from Aytek</h5>
+                
+                <section class="featured-posts">
+
+                    <div class="row">
+                
+                    {% for post in site.posts %}
+                
+                        {% if post.featured == true %}
+                
+                            {% include featuredbox.html %}
+                
+                        {% endif %}
+                
+                    {% endfor %}
+                
+                    </div>
+                </section> -->
+<!--                 
+                <p>Thank you for your support! Your donation helps me to maintain and improve <a target="_blank" href="https://github.com/wowthemesnet/mediumish-theme-jekyll">Mediumish <i class="fab fa-github"></i></a>.</p>
+                
+                <a target="_blank" href="https://www.wowthemes.net/donate/" class="btn btn-danger">Buy me a coffee</a> <a target="_blank" href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/" class="btn btn-warning">Documentation</a>
+                 -->
+            <!-- </div> -->
+        <!-- </div> -->
     </div>
 </div>
 <!-- End Article
